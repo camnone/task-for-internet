@@ -1,0 +1,92 @@
+.header {
+    background: url('../../img/bg/header-bg.png') center (center/cover) no-repeat;
+    min-height: 800px;
+    padding: 50px 0 50px 0;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    &__menu {
+        font-size: 16px;
+        font-weight: 400;
+        color: $white-color;
+        line-height: 15px;
+
+    }
+
+    &__logo {
+        width: 158px;
+        height: 18px;
+        cursor: pointer;
+    }
+
+    &__humburger {
+        display: block;
+        position: absolute;
+        right: -40px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 26px;
+        height: 20px;
+        cursor: pointer;
+
+        span {
+            display: block;
+            height: 2px;
+            width: 100%;
+            background-color: $white-color;
+            margin-bottom: 6px;
+            transition: 0.5s all;
+
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+
+
+    &__title {
+        text-align: center;
+        font-size: 70px;
+        font-weight: 800;
+        color: $white-color;
+        margin-top: 180px;
+
+        span {
+            color: $orange-color;
+            margin-left: 7px;
+        }
+    }
+
+    &__subtitle {
+        font-size: 25px;
+        margin: 0;
+        text-align: center;
+        line-height: 40px;
+        font-weight: 400;
+        color: $white-color;
+    }
+
+    &__btn-wrapper {
+        width: 40%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    &__btn {
+        margin-top: 64px;
+    }
+
+    &__down {
+        display: block;
+        cursor: pointer;
+        margin: 0 auto;
+        margin-top: 196px;
+        width: 34px;
+        height: 34px;
+    }
+}

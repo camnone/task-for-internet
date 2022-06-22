@@ -1,0 +1,41 @@
+.design {
+    padding: 100px 0 110px 0;
+
+    background-color: $white-color;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+
+    &__papper {
+        min-height: 160px;
+        margin-bottom: 50px;
+    }
+
+    &__title {
+        margin-top: 76px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        color: $design-color;
+    }
+
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__descr {
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: 400;
+        color: $design-color;
+        max-width: 160px;
+        margin: 0 auto;
+        margin-top: 30px;
+
+    }
+}

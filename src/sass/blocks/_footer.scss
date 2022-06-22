@@ -1,0 +1,9 @@
+.footer{
+    padding: 46px 0 83px 0;
+    background-color: $design-color;
+    &__descr{
+        font-size: 16px;
+        font-weight: 400;
+        color: $white-color;
+    }
+}

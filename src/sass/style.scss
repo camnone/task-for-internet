@@ -1,0 +1,42 @@
+@import 'base/mixins';
+@import 'base/variables';
+@import 'libs/bootstrap-reboot.min';
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto ;
+}
+p,h2{
+    margin: 0;
+    padding: 0;
+}
+
+
+@import 'blocks/header';
+@import 'blocks/contacts';
+@import 'blocks/btn';
+@import 'blocks/design';
+@import 'blocks/newsletter';
+@import 'blocks/ourwork';
+@import 'blocks/footer';
+
+
+
+@import 'blocks/media';
+
+
+@keyframes fade{
+    from{
+        top: 100%
+    } 
+
+    to{
+        top: 0%;
+    }
+}
