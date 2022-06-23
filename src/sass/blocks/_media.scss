@@ -1,6 +1,7 @@
 @media(max-width: 1200px){
     .container{
         max-width: 960px;
+        padding: 0 23px;
     }
     .header{
         &__title{
@@ -21,7 +22,7 @@
     }
 }
 
-@media(max-width:991px){
+@media(max-width:992px){
     .container{
         max-width: 720px;
     }
@@ -38,7 +39,10 @@
     }
     .newsletter{
         &__btn{
-            font-size: 14px;
+            font-size: 16px;
+        }
+        &__input{
+            min-width: 346px;
         }
     }
     .ourwork{
@@ -89,9 +93,18 @@
         width: 151px;
     }
     .newsletter{
+        &__form{
+            justify-content: center;
+            align-items: center;
+        
+        }
+        &__input{
+            margin: 0;
+        }
         &__btn{
-            width: 100%;
-            font-size: 9px;
+            margin-top: 10px;
+            width: 50%;
+            font-size: 13px;
         }
     }
     .ourwork{
@@ -131,6 +144,18 @@
             flex-direction: column;
         }
     
+    }
+    .newsletter{
+        padding: 100px 0;
+        &__form{
+            flex-direction: column;
+            width: 100%;
+        }
+        &__input{
+            text-overflow: ellipsis;
+            min-width: 250px;
+
+        }
     }
     .btn{
         &__outline{
